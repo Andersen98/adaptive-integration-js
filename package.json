@@ -1,0 +1,26 @@
+{
+  "name": "adaptive-integration-js",
+  "version": "1.0.0",
+  "devDependencies": {
+    "algebrite": "^1.4.0",
+    "coffeescript": "latest",
+    "grunt": "latest",
+    "grunt-contrib-clean": "^2.0.1",
+    "grunt-contrib-coffee": "^2.1.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "latest",
+    "grunt-mocha-cli": "^7.0.0",
+    "grunt-prettier": "^2.2.0",
+    "load-grunt-tasks": "latest",
+    "prettier": "github:helixbass/prettier#prettier-v2.1.0-dev.100-gitpkg",
+    "prettier-plugin-coffeescript": "latest"
+  },
+  "type": "module",
+  "dependencies": {
+    "check-types": "latest",
+    "mathjs": "^11.3.0"
+  },
+  "scripts": {
+    "prettier": "prettier"
+  }
+}
