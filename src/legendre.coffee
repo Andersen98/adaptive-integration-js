@@ -1,3 +1,5 @@
+import LegendreP from 'legendra-poly'
+
 _legendreNodes = """
   -0.98156063
   -0.90411726
@@ -29,6 +31,8 @@ _legendreWeights = """
 
 legendreNodes = (parseFloat s for s in _legendreNodes.split(/\s/))
 legendreWeights = (parseFloat s for s in _legendreWeights.split(/\s/))
+
+legendre = (x,n) -> math.sum( LegendreP(k)[i]*math.pow(x,i) for i in [0..k])
 
 
 adjustNodeToInterval = (x, a, b) ->
